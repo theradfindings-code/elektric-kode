@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url(Comic Sans MS.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(Ubuntu-M.ttf);
+}
+
+body {
+background: radial-gradient(circle, #d2d8e8, #7a7878);
+    color: black;
+    text-align: center;
+}
+
+a{
+    font-size: 20px;
+    color: rgb(33, 32, 32);
+}
+
+hr{
+    border-color: black;
+    border-width: 2px;
+}
+
+ /* image area that i wont mess with -jacob*/
+
+.hover-link {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-link img {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.hover-link .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.hover-link:hover .hover {
+  opacity: 1;
+}
+
+.hover-link:hover .normal {
+  opacity: 0;
+}
+
+ /* header area that i wont mess with -jacob*/
+
+body {
+  margin: 0;
+  font-family: Trebuchet MS;
+}
+
+/* Header */
+.site-header {
+  background-color: #0e2f4c;
+  padding: 15px 20px;
+}
+
+/* Flex layout */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navigation links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* image footer */
+
+.image-footer {
+  width: 100%;
+}
+
+.image-footer img {
+  display: block;
+}
